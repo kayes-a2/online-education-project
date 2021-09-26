@@ -1,0 +1,33 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import './Devloper.css'
+
+const Devloper = (props) => {
+    const { name, designation, age, image, salary } = props.project
+    console.log(props);
+
+    return (
+        <div className="devloper">
+            <div>
+                <img className="devloper-image" src={image} alt="" />
+            </div>
+            <div className="details">
+                <h4 className="devloper-name"> Name : {name}</h4>
+                <h4> designation : {designation}</h4>
+                <h4> age : {age}</h4>
+                <h4> salary : {salary}</h4>
+
+                <button
+                    onClick={() => props.handleAddToDevloperCart(props.project)}
+                    className="btn-regular"
+                ><FontAwesomeIcon icon={faUserPlus} /> Add Devloper</button>
+
+
+
+            </div>
+        </div >
+    );
+};
+
+export default Devloper;

@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header/Header';
+import Project from './component/Project/Project';
 
 function App() {
+
   return (
-    <div className="App">
-      <h1>this is my react</h1>
+    <div>
+      <Header></Header>
+      <Project></Project>
+
     </div>
   );
 }
