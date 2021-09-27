@@ -1,5 +1,3 @@
-[the-superhero-direction-kayes-a2 ]
-
 Details:
 
 website name : Devloper Team.
@@ -7,6 +5,7 @@ website name : Devloper Team.
 live link :
 
 netlify link : https://jovial-bassi-abe9a7.netlify.app/
+
 github link : https://github.com/ProgrammingHeroWC4/the-superhero-direction-kayes-a2
 
 About this site:
