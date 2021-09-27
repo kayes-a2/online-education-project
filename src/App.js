@@ -6,6 +6,7 @@ import Project from './components/Project/Project';
 function App() {
 
   return (
+    //header & project coponents
     <div>
       <Header></Header>
       <Project></Project>
@@ -14,4 +15,5 @@ function App() {
   );
 }
 
+//export default app file
 export default App;
