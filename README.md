@@ -1,5 +1,3 @@
-[the-superhero-direction-kayes-a2 ]
-
 Details:
 
 website name : Devloper Team.
