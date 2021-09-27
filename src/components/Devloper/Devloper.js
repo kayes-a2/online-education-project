@@ -1,14 +1,18 @@
+//import components & css file & font awesome external react node pakage
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import './Devloper.css'
 
+//devloper arrow function
 const Devloper = (props) => {
+    //destructuring of props
     const { name, designation, age, image, salary, experience } = props.project
     console.log(props);
 
     return (
-        <div className="devloper">
+        //devloper part of html (jsx) & event hander anonymous function & font awesome icon
+        <div className="devloper-cart">
             <div>
                 <img className="devloper-image" src={image} alt="" />
             </div>
@@ -24,11 +28,10 @@ const Devloper = (props) => {
                     className="btn-regular"
                 ><FontAwesomeIcon icon={faUserPlus} /> Add Devloper</button>
 
-
-
             </div>
         </div >
     );
 };
 
+//export default devloper file
 export default Devloper;

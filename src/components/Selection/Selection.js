@@ -1,14 +1,17 @@
+//import component & css file & external react node pakage
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import Member from './Member/Member';
 import "./Selection.css"
 
+//selection arrow function
 const Selection = (props) => {
+    //destructuring of props
     const { selection } = props;
 
     let totalSalary = 0;
-
+    //selection for of loop  
     for (const select of selection) {
         if (!select.quantity) {
             select.quantity = 1;
@@ -18,6 +21,7 @@ const Selection = (props) => {
     }
 
     return (
+        //selection part of html (jsx) & font awesome icon & member components 
         <>
             <div className="selection-cart">
 
@@ -43,4 +47,5 @@ const Selection = (props) => {
     );
 };
 
+//export default selection file
 export default Selection;

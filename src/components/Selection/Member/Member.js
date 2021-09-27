@@ -1,11 +1,15 @@
+//import css file external react file
 import React from 'react';
 import './Member.css'
 
+//member arrpow function
 const Member = (props) => {
+    //destructuring of props
     const { devloper } = props;
 
     return (
-        <div className="cart">
+        //member part of html (jsx)
+        <div className="member">
             <div className="member">
                 <img className="member-image" src={devloper.image} alt="" srcset="" />
                 <div className="details">
@@ -18,4 +22,5 @@ const Member = (props) => {
     );
 };
 
+//export default member file
 export default Member;

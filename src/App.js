@@ -1,6 +1,7 @@
+//import components & css file  
 import './App.css';
-import Header from './component/Header/Header';
-import Project from './component/Project/Project';
+import Header from './components/Header/Header';
+import Project from './components/Project/Project';
 
 function App() {
 
