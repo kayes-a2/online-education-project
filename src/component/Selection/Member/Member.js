@@ -6,15 +6,14 @@ const Member = (props) => {
 
     return (
         <div className="cart">
-            <div>
+            <div className="member">
                 <img className="member-image" src={devloper.image} alt="" srcset="" />
-                <h2><li>{devloper.name}</li></h2>
-                <h3><li>{devloper.designation}</li></h3>
+                <div className="details">
+                    <h4><li>{devloper.name}</li></h4>
+                    <h5><li>{devloper.designation}</li></h5>
+                </div>
             </div>
-
-            {/* <button className="btn-regular"
-            > Add Devloper</button> */}
-
+            <hr />
         </div>
     );
 };

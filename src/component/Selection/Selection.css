@@ -5,3 +5,11 @@
     border-radius: 15px;
     margin-top: 17px;
 } 
+.hire-button{
+    background-color: goldenrod;
+    width: 125px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}

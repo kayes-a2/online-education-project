@@ -1,17 +1,23 @@
 .cart{
-    border: 1px solid  white;
+    /* border: 1px solid  white;
     padding-right: 11px;
     width: 96%;
     background-color: darkgray;
     border-radius: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: center;
+    text-align: center; */
 }
 .member-image{
     margin: auto;
     margin-left: 6px;
     border-radius:100%;
-    width: 45%;
-    
+    width: 20%;
+}
+.member{
+    display: flex;
+    /* border-bottom: 1px solid white; */
+}
+.details{
+    text-align: center;
 }

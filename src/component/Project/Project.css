@@ -1,7 +1,6 @@
 .projects-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    
 
 }
 .devloper-container{
@@ -10,6 +9,4 @@
     margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 100px;
-    
 }
