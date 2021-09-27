@@ -2,6 +2,8 @@
     text-align: center;
     background-color: darkseagreen;
     padding: 10px;
-
-
+    line-height: 15px;
+}
+.text{
+    color:rgb(202, 101, 101)
 }
