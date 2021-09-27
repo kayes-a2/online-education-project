@@ -13,10 +13,10 @@ const Devloper = (props) => {
                 <img className="devloper-image" src={image} alt="" />
             </div>
             <div className="details">
-                <h4 className="devloper-name"> Name : {name}</h4>
-                <h4> designation : {designation}</h4>
-                <h4> age : {age}</h4>
-                <h4> salary : {salary}</h4>
+                <h4 className="devloper-name"> <span className="property">Name</span> : {name}</h4>
+                <h4><span className="property"> Aesignation</span> : {designation}</h4>
+                <h4><span className="property"> Age</span> : {age}</h4>
+                <h4><span className="property"> Salary</span> : {salary}</h4>
 
                 <button
                     onClick={() => props.handleAddToDevloperCart(props.project)}
