@@ -1,9 +1,13 @@
 import React from 'react';
+import UseService from '../../Hooks/Hook';
 
 const Details = () => {
+    const [courses, setCourses] = UseService()
+
     return (
         <div className="text-center text-6xl">
-            <h1>this is details</h1>
+            <h1>Our Course's All Details Are Here</h1>
+            <h2></h2>
         </div>
     );
 };
