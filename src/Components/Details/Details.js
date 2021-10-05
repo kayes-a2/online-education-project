@@ -1,10 +1,15 @@
+//import component"s & css file & external react node pakage
 import React from 'react';
 import "./Details.css"
 
+//details componet arroe function
 const Details = (props) => {
+
+    //data distuctring
     const { name, image, designation } = props.item
 
     return (
+        ////full details part of html (jsx)
         <div>
             <div className="about-cart">
                 <div>
@@ -20,4 +25,5 @@ const Details = (props) => {
     );
 };
 
+//export details component
 export default Details;

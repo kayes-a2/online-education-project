@@ -1,3 +1,4 @@
+////import components & external react node pakage
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
@@ -13,6 +14,7 @@ import Support from "./Components/Support/Support";
 
 function App() {
   return (
+    //router path
     <div>
       <Router>
         <Header> </Header>
@@ -54,5 +56,5 @@ function App() {
     </div>
   );
 }
-
+//component export
 export default App;

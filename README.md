@@ -1,10 +1,10 @@
 Details:
 
-website name : Being Learner.
+website name : Being Learner
 
-live link :
+live link : 
 
-netlify link : https://jovial-bassi-abe9a7.netlify.app/
+netlify link : https://clever-booth-e8b24a.netlify.app/
 
 github link : https://github.com/ProgrammingHeroWC4/review-website-kayes-a2
 
