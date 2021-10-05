@@ -1,16 +1,19 @@
 import React from 'react';
-import image from "../../Images/images (6).jfif"
+import UseDetails from '../../Hooks/About';
+import Details from '../Details/Details';
+import "./About.css"
+
 
 const About = () => {
+    const [items, setItems] = UseDetails()
     return (
-        <div className="text-center text-6xl">
-            <img className="mx-auto  mt-4" src={image} alt="" srcset="" />
+        <div>
+            <h2 className="m-7 font-bold text-3xl text-center">About Our Team</h2>
+            <div className="about-container">
 
-            <h2 className="text-2xl  ">Learn the skills to drive your career</h2>
-            <div>
-
-                <h2 className="mt-2 text-xl">Call: 1-800-2690</h2>
-                <h2 className="mt-2 text-xl">Location : Dhaka,Bangladesh</h2>
+                {
+                    items.map(item => <Details key={item.id} item={item} ></Details>)
+                }
             </div>
         </div>
     );

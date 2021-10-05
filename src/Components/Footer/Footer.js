@@ -29,7 +29,6 @@ const Footer = () => {
                 <h2 className="mt-2 text-xl">Call: 1-800-2690</h2>
                 <h2>Location : Dhaka,Bangladesh</h2>
             </div>
-
             <div className="mt-4 text-xl">
                 <p>Copyright © Being Learner 2021</p>
             </div>

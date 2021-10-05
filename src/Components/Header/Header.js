@@ -17,16 +17,20 @@ const Header = () => {
                     <button className="mx-4 text-2xl bg-black text-white rounded-lg p-1">Home</button>
                 </NavLink>
 
+                <NavLink to="/course">
+                    <button className="mx-4 text-2xl bg-black text-white rounded-lg p-1">Course</button>
+                </NavLink>
+
                 <NavLink to="/service">
                     <button className="mx-4 text-2xl bg-black text-white rounded-lg p-1">Service</button>
                 </NavLink>
 
-                <NavLink to="/details">
-                    <button className="mx-4 text-2xl bg-black text-white rounded-lg p-1">Details</button>
-                </NavLink>
-
                 <NavLink to="/about">
                     <button className="mx-4 text-2xl bg-black text-white rounded-lg p-1">About</button>
+                </NavLink>
+
+                <NavLink to="/contact">
+                    <button className="mx-4 text-2xl bg-black text-white rounded-lg p-1">Contact</button>
                 </NavLink>
             </div>
         </div>

@@ -1,0 +1,7 @@
+.about-container{
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

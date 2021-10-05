@@ -1,14 +1,22 @@
 import React from 'react';
-import UseService from '../../Hooks/Hook';
+import "./Details.css"
 
-const Details = () => {
-    const [courses, setCourses] = UseService()
+const Details = (props) => {
+    const { name, image, designation } = props.item
 
     return (
-        <div className="text-center text-6xl">
-            <h1>Our Course's All Details Are Here</h1>
-            <h2></h2>
+        <div>
+            <div className="about-cart">
+                <div>
+                    <img className="about-image" src={image} alt="" />
+                </div>
+                <div className="details">
+                    <h4> <span className="property">Name</span> : {name}</h4>
+                    <h4><span className="property"> Designation</span> : {designation}</h4>
+                </div>
+            </div >
         </div>
+
     );
 };
 

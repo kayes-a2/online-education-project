@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Primary",
-        "class": "Play to Five",
+        "stander": "Play to Five",
         "price": 5999,
         "admission": "ON",
         "enroll": 99,
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "name": "Secondary",
-        "class": "Six to Seven",
+        "stander": "Six to Seven",
         "price": 10000,
         "admission": "ON",
         "enroll": 150,
@@ -24,7 +24,7 @@
     {
         "id": 3,
         "name": " JSC Special",
-        "class": "Eight",
+        "stander": "Eight",
         "price": 12000,
         "admission": "ON",
         "enroll": 175,
@@ -35,7 +35,7 @@
     {
         "id": 4,
         "name": "SSC Special",
-        "class": "Nine & Ten",
+        "stander": "Nine & Ten",
         "price": 15000,
         "admission": "ON",
         "enroll": 217,
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "name": "HSC Special",
-        "class": "Eleven & Twelve",
+        "stander": "Eleven & Twelve",
         "price": 19999,
         "admission": "ON",
         "enroll": 255,
@@ -57,7 +57,7 @@
     {
         "id": 6,
         "name": "Admission Test General",
-        "class": "HSC Student's ",
+        "stander": "HSC Student's ",
         "price": 250000,
         "admission": "ON",
         "enroll": 786,
@@ -68,7 +68,7 @@
     {
         "id": 7,
         "name": "Admission Test Medical",
-        "class": "HSC Student's ",
+        "stander": "HSC Student's ",
         "price": 250000,
         "admission": "ON",
         "enroll": 365,
@@ -79,7 +79,7 @@
     {
         "id": 8,
         "name": "Admission Test Engineering",
-        "class": "HSC Student's ",
+        "stander": "HSC Student's ",
         "price": 250000,
         "admission": "ON",
         "enroll": 345,
@@ -90,7 +90,7 @@
     {
         "id": 9,
         "name": "Skill Trainging in English",
-        "class": "Open",
+        "stander": "Open",
         "price": 5500,
         "admission": "ON",
         "enroll": 279,
@@ -101,7 +101,7 @@
     {
         "id": 10,
         "name": "Skill Trainging in Web-Devlopment",
-        "class": "Open",
+        "stander": "Open",
         "price": 5500,
         "admission": "ON",
         "enroll": 5217,

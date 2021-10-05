@@ -1,10 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import UseService from '../../Hooks/Hook';
 import Course from '../Course/Course';
 
 const Home = () => {
     const [courses, setCourses] = UseService();
-    // const { image, name, price, access } = courses
+
+    const items = courses.filter(course => course.id < 5)
+    console.log(items)
+
     return (
         <div className="">
             <div className="grid grid-cols-2 mb-6	">
@@ -25,21 +29,23 @@ const Home = () => {
             </div>
 
             <div className="text-center ">
-                <h4 className="text-2xl">Service :</h4>
-                <h3 className=" text-3xl my-2">Popular Topics To Learn</h3>
+                <h4 className="text-2xl font-bold">Service :</h4>
+                <h3 className=" text-3xl my-2 font-bold">Popular Topics To Learn</h3>
 
 
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-2">
 
                     {
-                        courses.map(course => <Course key={courses.id} course={course}></Course>)
+                        items.map(item => <Course key={item.id} item={item}></Course>)
                     }
                 </div>
-
-
+                <NavLink to="/course">
+                    <button className=" text-2xl bg-black text-white rounded-lg p-1 my-4">View All</button>
+                </NavLink>
 
             </div>
-        </div >
+
+        </div>
     );
 };
 
